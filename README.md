@@ -8,8 +8,9 @@ code.
 
 ## Features
 Store any variable with an id in the container. The variables can then be retrieved with the id. The ID is a string. 
-
-##Usage
+When using the same id twice, the previous entry will get overridden by the new entry! This allows to easily change the 
+variables later on and ensures that entrie ids can't collide!
+## Usage
 ```java
 package at.neonartworks.basecontainer.test;
 
